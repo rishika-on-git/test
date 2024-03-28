@@ -1,0 +1,63 @@
+.codeofconduct {
+    background: #0f1014;
+    color: white;
+}
+
+.codeofconduct .codheading {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 2% 0;
+}
+
+.codcontent div {
+    margin-top: 2%;
+    background-color: rgba(22, 77, 124, 0.5);
+    padding:1% 2%;
+    border-radius: 5%;
+}
+
+.codcontent {
+    font-size: 1.3rem;
+    width: 80%;
+    margin: auto;  
+}
+
+.codcontent h2 {
+    margin: 2% 0;
+}
+
+@media only screen and (max-width:740px) {
+    .codeofconduct .codheading {
+        font-size: 2.5rem;
+    }
+
+    .codcontent div {
+        margin-top: 3%;
+    }
+
+    .codcontent {
+        width: 90%;
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width:540px) {
+    .codeofconduct .codheading {
+        font-size: 2rem;
+        padding: 4% 0;
+    }
+
+    .codcontent div {
+        margin-top: 5%;
+    }
+
+    .codcontent h2 {
+        margin: 6% 0;
+    }
+
+    .codcontent {
+        width: 90%;
+        font-size: 1.1rem;
+    }
+}

@@ -1,0 +1,54 @@
+.prize{
+    background:rgb(1, 1, 26);
+    color:white;
+    padding:2% 0;
+}
+
+.heading{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.prizecontainer{
+    background:rgb(2, 2, 43);
+    width:85%;
+    padding:1%;
+    margin:auto;
+    margin-top:2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.prizebox{
+    background: #00FFF8;
+    color:rgb(1, 1, 26);
+    margin:2% 3%;
+    height:250px;
+    width:250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 20px rgba(195, 189, 189, 0.5);
+    cursor: pointer;
+}
+
+.prizebox:hover img{
+    transform: scale(1.1);
+}
+
+img{
+    width:105%;
+    transition: all 0.4s ease-in-out;
+}
+
+.position, .price{
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.position{
+    text-align: center;
+}

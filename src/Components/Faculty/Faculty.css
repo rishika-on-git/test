@@ -1,0 +1,68 @@
+.faculty{
+    background:rgb(1, 1, 26);
+    color:white;
+    padding:2% 0;
+}
+
+.fheading{
+    font-size: 3rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.facultycontainer{
+    background:rgb(2, 2, 43);
+    width:85%;
+    padding:1%;
+    margin:auto;
+    margin-top:2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.facultybox{
+    background: #4e54c8;
+    color:white;
+    margin:2% 3%;
+    height:300px;
+    width:250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 20px rgba(195, 189, 189, 0.5);
+    cursor: pointer;
+}
+
+.faculty .img{
+    display: flex;
+    justify-content: center;
+}
+
+.facultybox:hover img{
+    transform: scale(1.1);
+}
+
+.faculty img{
+    width:80%;
+    border-radius: 40%;
+    transition: all 0.4s ease-in-out;
+    margin-bottom: 12%;
+}
+
+.faculty .position, .faculty .price{
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.faculty .vikasdir{
+    width:150px;
+}
+
+@media only screen and (max-width:540px){
+    .faculty .fheading{
+        font-size: 2.4rem;
+    }
+}
