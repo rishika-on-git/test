@@ -58,11 +58,38 @@
 }
 
 .faculty .vikasdir{
-    width:150px;
+    width:120px;
 }
 
-@media only screen and (max-width:540px){
+@media only screen and (max-width:740px){
+    .facultycontainer{
+        width:95%;
+    }
+}
+
+@media only screen and (max-width:610px){
     .faculty .fheading{
         font-size: 2.4rem;
+    }
+
+    .facultycontainer{
+        width:100%;
+    }
+
+    .facultybox{
+        height:270px;
+        width:210px;
+    }
+
+    .faculty .vikasdir{
+        width:110px;
+    }
+
+    .faculty .position{
+        font-size: 1.1rem;
+    }
+
+    .faculty .price{
+        font-size: 1.1rem;
     }
 }

@@ -37,9 +37,9 @@
 
 .navBar a {
     color:white;
-    text-decoration: none;
+    text-decoration: underline;
     font-size: 1.25rem;
-    margin: 1% 40px;
+    margin: 3% 40px;
     font-weight: 400;
     transition: 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
     position: relative;

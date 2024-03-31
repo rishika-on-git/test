@@ -1,4 +1,4 @@
-const Detail = [
+const Winningprizes = [
     {
         image:'/images/1.png',
         position:'1ND Prize',
@@ -14,6 +14,9 @@ const Detail = [
         position:'3ND Prize',
         price:'10000 INR'       
     },
+];
+
+const Trackprizes = [
     {
         image:'/images/trophy.png',
         position:'All First Year Team',
@@ -44,6 +47,10 @@ const Detail = [
         position:'Track 3',
         price:'3000 INR' 
     },
+];
+
+
+const Otherevents = [
     {
         image:'/images/trophy.png',
         position:'CTF',
@@ -54,6 +61,6 @@ const Detail = [
         position:'Mystery Event',
         price:'5000 INR' 
     },
-]
+];
 
-export default Detail;
+export default {Winningprizes, Trackprizes, Otherevents};

@@ -11,7 +11,7 @@
 }
 
 .prizecontainer{
-    background:rgb(2, 2, 43);
+    /* background:rgb(2, 2, 43); */
     width:85%;
     padding:1%;
     margin:auto;
@@ -22,9 +22,9 @@
 }
 
 .prizebox{
-    background: #00FFF8;
-    color:rgb(1, 1, 26);
-    margin:2% 3%;
+    /* background: #00FFF8; */
+    color:cyan;
+    margin:10% 20%;
     height:250px;
     width:250px;
     display: flex;
@@ -51,4 +51,39 @@ img{
 
 .position{
     text-align: center;
+}
+
+@media only screen and (max-width:1200px){
+    .prizebox{
+        margin:10% 25%;
+    }
+}
+
+@media only screen and (max-width:1000px){
+    .prizebox{
+        margin:10% 23%;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .prizebox{
+        margin:10% 15%;
+    }
+}
+
+@media only screen and (max-width:650px){
+    .prizebox{
+        margin:10% 10%;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .prizebox{
+        margin:10% 17%;
+    }
+}
+
+.prizedistribution{
+    text-align: center;
+    font-size: 2rem;
 }

@@ -1,5 +1,4 @@
 import React from 'react'
-import Detail from './Facultydetail.js'
 import './Faculty.css'
 const Faculty = () => {
     return (
@@ -20,17 +19,13 @@ const Faculty = () => {
                     <div className="position">PROF. ANKITA WADHWA</div>
                     <div className="price">FACULTY COORDINATOR (OSDC)</div>
                 </div>
-                {
-                    Detail.map((item, index) => (
-                        <div className="facultybox" key={index}>
-                            <div className="img">
-                                <img src={item.image} alt="" />
-                            </div>
-                            <div className="position">{item.name}</div>
-                            <div className="price">{item.role}</div>
-                        </div>
-                    ))
-                }
+                <div className="facultybox">
+                    <div className="img">
+                        <img className='vikasdir' src='/images/Dr.Manish Kumar Thakur.jpg' alt="" />
+                    </div>
+                    <div className="position">PROF. MANISH K. THAKUR</div>
+                    <div className="price">FACULTY COORDINATOR (OSDC)</div>
+                </div>
             </div>
         </div>
     )
