@@ -69,7 +69,7 @@
 }
 
 .image {
-    margin: 2%;
+    margin: 3%;
     border: 5px solid transparent;
     border-image: linear-gradient(10deg, rgb(187, 4, 4), rgb(30, 30, 118));
     border-image-slice: 1;

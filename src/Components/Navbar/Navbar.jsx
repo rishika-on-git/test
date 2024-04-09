@@ -23,7 +23,7 @@ const Homepage = ({ openMyComponent }) => {
                         <div className="line"></div>
                         <div className="line"></div>
                     </div>
-                    {/* <div id="osdc">
+                    {/* <div className="osdclogo">
                         <Link  className="clubName"  to='/'>OSDHack</Link>
                     </div> */}
                     <div

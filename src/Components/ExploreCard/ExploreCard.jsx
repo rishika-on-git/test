@@ -15,7 +15,7 @@ const ExploreCard = () => {
 
         <div className="card">
             <div className="content">
-              <h2 className="title">TREASURE OF TOWN</h2>
+              <h2 className="title">PRIZES</h2>
             </div>
         </div>
 

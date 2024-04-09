@@ -59,10 +59,9 @@
 }
 
 .card:nth-child(2) {
-  background-image: url("../../assets/exploreProgramme1.png");
+  background-image: url("../../assets/trophy.png");
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
 }
 
 .card:nth-child(3) {

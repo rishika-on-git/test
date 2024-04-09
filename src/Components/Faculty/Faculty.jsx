@@ -14,9 +14,9 @@ const Faculty = () => {
                 </div>
                 <div className="facultybox">
                     <div className="img">
-                        <img className='vikasdir' src='/images/CS Ankita.jpeg' alt="" />
+                        <img className='vikasdir' src='/images/prakashsir.jpeg' alt="" />
                     </div>
-                    <div className="position">PROF. ANKITA WADHWA</div>
+                    <div className="position">DR. PRAKASH KUMAR</div>
                     <div className="price">FACULTY COORDINATOR (OSDC)</div>
                 </div>
                 <div className="facultybox">

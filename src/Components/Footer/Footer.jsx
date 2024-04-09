@@ -16,7 +16,7 @@ function Footer() {
           <ul className='quicklinks'>
             <Link to="/">Home</Link>
             <Link to="/team">Team</Link>
-            <Link to="/gallery">Gallery</Link>
+            {/* <Link to="/gallery">Gallery</Link> */}
             <a href="">Register</a>
           </ul>
         </div>

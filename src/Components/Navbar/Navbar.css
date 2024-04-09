@@ -2,7 +2,7 @@
 .hamburger {
     position: absolute;
     top: 10%;
-    right: 6%;
+    right: 4%;
     display: none;
 }
 
@@ -87,7 +87,7 @@
     }
 
     .navbar-fixed {
-        width: 100vw;
+        /* width: 100vw; */
         height: 50px;
     }
 

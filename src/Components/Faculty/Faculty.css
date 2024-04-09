@@ -64,6 +64,7 @@
 @media only screen and (max-width:740px){
     .facultycontainer{
         width:95%;
+        padding:0;
     }
 }
 
